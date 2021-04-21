@@ -78,5 +78,5 @@ resource "google_compute_instance" "jenkins" {
     }
   }
   
-  tags = ["http"]
+  tags = ["http", "http-server"]
 }
