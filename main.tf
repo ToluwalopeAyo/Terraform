@@ -66,7 +66,7 @@ resource "google_compute_instance" "jenkins" {
   
   boot_disk {
     initialize_params {
-      image = "ubuntu-1604-xenial-v20210416"
+      image = "ubuntu-1804-bionic-v20210415"
     }
   }
   
