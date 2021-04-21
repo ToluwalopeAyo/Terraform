@@ -8,3 +8,4 @@ terraform.tfvars
 # .tfstate files
 *.tfstate
 *.tfstate.*
+*.terraform.lock.hcl
